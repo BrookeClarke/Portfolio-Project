@@ -1,0 +1,15 @@
+:root {
+    --main-color: #ffe5e0;;
+    --primary-color: #456473;
+    --secondary-color: #A08065;
+    --fourth-color: #A08065;
+}
+body {
+    background-color: var(--main-color);
+}
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+}
