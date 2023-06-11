@@ -33,6 +33,7 @@ nav a:hover {
 }
 nav a:hover, nav li.active a {
     color: var(--primary-color);
+    text-decoration: underline;
 }
 .container {
     background-color: rgba(69, 100, 115, 0.8);
@@ -73,6 +74,13 @@ h1 {
     color: white;
     text-align: center;
 }
+.contact-me-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    text-decoration: underline;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
+    transition: all 150ms ease-in-out;
+}
 .project-h2 {
     font-size: 42px;
     color: var(--main-color);
@@ -106,6 +114,7 @@ h1 {
     text-align: center;
     margin: 0 auto;
     text-decoration: none;
+    transition: all 150ms ease-in-out;
 }
 .launch-project-button:hover {
     cursor: pointer;
