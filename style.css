@@ -84,3 +84,16 @@ h1 {
 .project-description {
     padding: 80px 60px;
 }
+.about-section {
+    margin: 36px;
+}
+.about-section h1 {
+    font-family: serif;
+    font-size: 48px;
+}
+.about-section h2 {
+    font-family: serif;
+    font-size: 42px;
+}
+.about-section-content {
+}
