@@ -32,7 +32,7 @@ h1 {
     background-color: var(--secondary-color);
     color: white;
 }
-.projects-button {
+.contact-me-button {
     display: block;
     margin: 0 auto;
     padding: 15px;
@@ -76,10 +76,12 @@ h1 {
     color: white;
     text-align: center;
     margin: 0 auto;
+    text-decoration: none;
 }
 .launch-project-button:hover {
     cursor: pointer;
     box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
 }
 .project-description {
     padding: 80px 60px;
@@ -93,7 +95,46 @@ h1 {
 }
 .about-section h2 {
     font-family: serif;
-    font-size: 42px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: var(--secondary-color);
 }
-.about-section-content {
+.about-section p {
+    color: white;
+    font-family: serif;
+}
+.about-section-container {
+    background-color: var(--primary-color);
+}
+.about-see-my-projects {
+    background-color: var(--secondary-color);
+    color: white;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    font-family: serif;
+}
+.about-see-my-projects:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    text-decoration: underline;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    font-family: serif;
+}
+.work-h2 {
+    font-family: serif;
+    text-align: center;
+    color: white;
+    background-color: var(--secondary-color);
+}
+.work-p {
+    font-family: serif;
+    text-align: center;
+    color: white;
+    background-color: var(--secondary-color);
 }
