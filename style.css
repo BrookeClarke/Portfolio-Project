@@ -138,3 +138,21 @@ h1 {
     color: white;
     background-color: var(--secondary-color);
 }
+.contact-h2 {
+    font-family: serif;
+    text-align: center;
+    font-size: 36px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+.contact-container {
+    background-color: rgba(69, 100, 115, 0.8);
+    text-align: center;
+    color: white;
+    font-family: serif;
+}
+.contact-container a {
+    text-align: center;
+    color: white;
+    font-family: serif;
+}
