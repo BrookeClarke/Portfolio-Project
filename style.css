@@ -51,6 +51,7 @@ h1 {
     color: white;
     text-decoration: underline;
     text-align: center;
+    font-family: serif;
 }
 .project-picture {
     width: 555px;
@@ -62,6 +63,7 @@ h1 {
     font-size: 16px;
     color: white;
     text-align: center;
+    font-family: serif;
 }
 .launch-project-button {
     display: block;
